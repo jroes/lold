@@ -1,24 +1,25 @@
-# Lold
+# lold
 
-TODO: Write a gem description
+A new approach to deploying Rails apps. lold will do all of the following for you:
+
+1. Create a domain or subdomain
+2. Point DNS to your destination server
+3. Set up web server configuration
+4. Deploy your code
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-    gem 'lold'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install lold
 
 ## Usage
 
-TODO: Write usage instructions here
+    $ lold setup dogbertapp.com
+
+This will register dogbertapp.com, point DNS to your default deployment server, create a virtual host in your nginx config, deploy your code, and start your app.
+
+## What lold isn't for
+
+Complex setups. We're not trying to replace Chef or Puppet, when you have a complex setup you should use them. If you have a simple app, or you just want to get started quickly, lold can help you.
 
 ## Contributing
 
