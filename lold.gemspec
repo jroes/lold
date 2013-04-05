@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Lold::VERSION
   spec.authors       = ["Jonathan Roes"]
   spec.email         = ["jroes@jroes.net"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Deployment for simple apps.}
+  spec.summary       = %q{Deploys simple apps with basic assumptions. Registers domains, points DNS, configures web server, and pushes code. }
   spec.homepage      = ""
   spec.license       = "MIT"
 
