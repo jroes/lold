@@ -1,6 +1,6 @@
 # lold
 
-A new approach to deploying Rails apps. lold will do all of the following for you:
+A new approach to deploying Rails/Rack apps. lold will do all of the following for you:
 
 1. Create a domain or subdomain
 2. Point DNS to your destination server
